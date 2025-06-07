@@ -2,8 +2,8 @@ spring:
 
   datasource:
     url: jdbc:h2:mem:accounts_db;MODE=PostgreSQL
-    username: e29a4669aace5e341544dbab134b9289b9bbdf18207418b1e1855ee89f5d3383
-    password: b7ef9d6dac909b82af358dce05b5148bea5ade59854f47b22842fb20a461a0e5
+    username: "{cipher}e29a4669aace5e341544dbab134b9289b9bbdf18207418b1e1855ee89f5d3383"
+    password: "{cipher}b7ef9d6dac909b82af358dce05b5148bea5ade59854f47b22842fb20a461a0e5"
     driverClassName: org.h2.Driver
 
   flyway:
