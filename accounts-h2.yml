@@ -16,3 +16,6 @@ spring:
       hibernate:
         format_sql: true
     ddl-auto: create-drop
+
+app:
+  name: web-accounts
