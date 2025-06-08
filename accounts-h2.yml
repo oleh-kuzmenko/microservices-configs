@@ -18,4 +18,4 @@ spring:
     ddl-auto: create-drop
 
 app:
-  name: web-accounts
+  name: accounts-v1
