@@ -1,0 +1,12 @@
+server:
+  port: 8072
+
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: ${SERVICE_REGISTRY_UTI:http://localhost:8070/eureka}
+    fetch-registry: true
+    register-with-eureka: true
+    
